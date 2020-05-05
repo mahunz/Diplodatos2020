@@ -10,7 +10,7 @@ El objetivo de este proyecto es que el estudiante a lo largo de las materias a c
 * Distribución de los ejemplos con respecto a las diferentes clases de consumo.
 * Análisis de outliers.
 * Visualización de la calidad de servicio y el consumo de energía anual por grupo tarifario, circuito y por conjunto eléctrico
-* 
+
 ### Análisis y Curación
 Para análisis y curación podrán aplicarse sobre el dataset (en su totalidad) los siguientes puntos:
 * Importación de datos.
