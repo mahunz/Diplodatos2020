@@ -38,11 +38,8 @@ Se propone trabajar con tres variables simples de analizar, el consumo anual, el
 * Métricas sobre el conjunto de evaluación.
 
 ### Aprendizaje Supervisado
-Definir un modelo simple para utilizarlo de baseline e ir complejizando el modelo con la adición de diferentes variables. Se propondrá la utilización de los algoritmos de red para desarrollar features de interés a partir de las informaciones geográficas.  El objetivo es implementar en este caso un sistema predictivo de calidad de servicio (FEC) en base a la información geográfica. Se cuenta con features como el consumo, los equipos por circuito, la geografía de los features, las cuales se pueden utilizar como entrada de un modelo que prediga el FEC. 
-Aprendizaje No Supervisado
-Para la aplicación de aprendizaje no supervisado sería interesante hacer dos análisis:
-* Segmentación de las ventas: clusterizar las ventas junto con las diferentes variables disponibles y hacer un análisis de los grupos obtenidos. Si aplica, evaluar en que caso tenemos las mejores ventas, ante que condiciones, con que combinación de variables. Podría utilizarse un algoritmo como K Means con algún método de optimización de número de clusters como elbow method.
-* Sistema de recomendación de tiendas: se cuenta con el dato de los usuarios que frecuentan cada tienda, puede armarse un pequeño sistema de recomendación de tiendas a usuarios a través de métodos matriciales.
+Para la aplicación de aprendizaje no supervisado sería interesante realizar una Segmentación de la calidad de servicio mediante técnicas de clusterización con las diferentes variables disponibles.
+Hacer un análisis de los grupos obtenidos que nos permita evaluar cuales son las variables que mejor explican la calidad de servicio. Estas variables podemos utilizarlas en los algoritmos de aprendizaje supervisado para mejorar su calidad de predicción. Podría utilizarse un algoritmo como K Means con algún método de optimización de número de clusters como elbow method.
 
 ### Optativas Relacionadas
 Análisis de series temporales, Introducción al aprendizaje profundo.
