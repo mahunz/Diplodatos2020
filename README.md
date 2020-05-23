@@ -2,9 +2,9 @@
 
 ## Título del Proyecto: Ciencia de Datos aplicada en la distribución de Energía Eléctrica
 ### Descripción del dataset, problemas interesantes asociados
-Se provee de un dataset que contiene la base de datos geográfica del año 2018 de la empresa ENF (Energisa Nueva Friburgo).
+Se provee de un dataset que contiene la base de datos geográfica del año 2017, 2018 y 2019 de la empresa ENF (Energisa Nueva Friburgo).
 El dataset contiene datos geográficos de los consumidores y de todos los activos de la distribuidora.
-Uno de los mayores desafíos de esta industria es conocer los impulsores de la Calidad de Servicio que permitan la toma de dicisiones eficientes sobre los costos operativos e inversiones.
+Uno de los mayores desafíos de esta industria es conocer los impulsores de la Calidad de Servicio que permitan la toma de decisiones eficientes sobre los costos operativos e inversiones.
 El objetivo de este proyecto es que el estudiante a lo largo de las materias de la diplomatura identifique y aplique diferentes técnicas de análisis/procesamiento de los datos que generen información relevantes para la toma de decisiones.
 
 ## Objetivos generales para cada materia:
@@ -41,6 +41,9 @@ Se propone trabajar con tres variables simples de analizar, el consumo anual, el
 * Métricas sobre el conjunto de evaluación.
 
 ### Aprendizaje Supervisado
+Definir un modelo simple para utilizarlo de baseline e ir complejizando el modelo con la adición de diferentes variables. Se propondrá la utilización de los algoritmos de red para desarrollar features de interés a partir de las informaciones geográficas.  El objetivo es implementar en este caso un sistema predictivo de calidad de servicio (FEC) en base a la información geográfica. Se cuenta con features como el consumo, los equipos por circuito, la geografía de los features, las cuales se pueden utilizar como entrada de un modelo que prediga el FEC. 
+
+### Aprendizaje No Supervisado
 Para la aplicación de aprendizaje no supervisado sería interesante realizar una Segmentación de la calidad de servicio mediante técnicas de clusterización con las diferentes variables disponibles.
 Hacer un análisis de los grupos obtenidos que nos permita evaluar cuales son las variables que mejor explican la calidad de servicio. Estas variables podemos utilizarlas en los algoritmos de aprendizaje supervisado para mejorar su calidad de predicción. Podría utilizarse un algoritmo como K Means con algún método de optimización de número de clusters como elbow method.
 
