@@ -34,7 +34,7 @@ El dataset está compuesto por muchas tablas con información geográfica y vari
 El objetivo en este punto es que los estudiantes aprendan a dividir el dataset, a seleccionar el modelo y evaluar las métricas.
 Se propone trabajar con tres variables simples de analizar, el consumo anual, el tipo de zona geográfica (urbana o rural) y la cantidad de interrupciones (FIC), y con esto hacer un sistema predictivo en donde se introduce un consumo anual, la zona geográfica y el modelo predice la cantidad de interrupciones. Con esto podrá aplicarse:
 * Carga de datos.
-* Una pequeña reestructuración de las columnas optimizandolo para el análisis que se desea hacer (por ejemplo considerar el análisis por consumidor o agrupado por categoría tarifaria, o el circuito provista por el dataset).
+* Una pequeña reestructuración de las columnas optimizándolo para el análisis que se desea hacer (por ejemplo considerar el análisis por consumidor o agrupado por categoría tarifaria, o el circuito provista por el dataset).
 * División en conjuntos de entrenamiento y evaluación.
 * Elección de un modelo.
 * Selección de hyperparámetros.
