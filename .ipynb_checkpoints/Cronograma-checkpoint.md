@@ -10,13 +10,13 @@ Los grupos de trabajo se corresponden con la cohorte.
 
 | Alumno | Grupo |
 | ------ | ----- |
-|Lucas Lissandrello |	1|
+|Guillermo Luis Incatasciato|	1|
 |Ramiro Podetti| 	1|
 |Yirana Mejia C.|	1|
 |Joel de Andrés|	2|
 |Laura Aliendo|	2|
 |Marcelo Tisera|	2|
-
+|Lucas Lissandrello|	2|
 
 ### Entregas
 Cada grupo realizará las entrega en el github de la mentoría https://github.com/mahunz/Diplodatos2020 en la carpeta **Entrega**
